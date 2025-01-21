@@ -28,8 +28,6 @@ while score<50:
             t.write(row,  font=("Arial", 16, "bold"))
 
 
-states_to_learn = pandas.Series()
-
 states_to_learn = data["state"]
 
 for row in guessed_states:
