@@ -23,8 +23,8 @@ while score<50:
             guessed_states.append(row)
             score = score +1
             t.penup()
-            linha = data[data.state == row]
-            t.goto(linha.x.item(), linha.y.item())
+            line = data[data.state == row]
+            t.goto(line.x.item(), line.y.item())
             t.write(row,  font=("Arial", 16, "bold"))
 
 
